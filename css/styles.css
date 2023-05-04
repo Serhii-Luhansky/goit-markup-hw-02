@@ -1,0 +1,144 @@
+:root {
+  --brandcolor: #2e2f42;
+  --logocolor: #4d5ae5;
+}
+
+/* цвет основного текста #2E2F42 */
+
+/* Навигация сайта */
+/* убираю маркеры в списке */
+.list {
+  list-style: none;
+}
+
+/* убираю подчеркивание ссылок */
+.link {
+  text-decoration: none;
+}
+
+/* основной шрифт страницы */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--brandcolor);
+}
+/**************** HEADER************ */
+.logo {
+  font-family: 'Raleway', sans-serif;
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brandcolor);
+}
+.logo-web {
+  color: var(--logocolor);
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brandcolor);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.contact-email {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-email:hover,
+.contact-email:focus {
+  color: #404bbf;
+}
+
+.contact-phone-number {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+  color: #404bbf;
+}
+
+/* ************Герой************* */
+.modal-btn,
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: var(--logocolor);
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background: #404bbf;
+}
+.filter-btn {
+  color: var(--logocolor);
+  background: #f4f4fd;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background: #404bbf;
+  color: #ffffff;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* color: #FFFFFF; */
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--brandcolor);
+}
+
+/* ************Features *********************/
+
+.list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--brandcolor);
+}
+.list-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/***************Футер************** */
+
+.p-footer {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* color: #F4F4FD; */
+}
