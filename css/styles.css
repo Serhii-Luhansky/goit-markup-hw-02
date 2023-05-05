@@ -34,7 +34,7 @@ body {
   color: var(--logocolor);
 }
 .logo-web {
-  color: #f4f4fd;
+  color: var(--brandcolor)
 }
 
 .menu-link {
