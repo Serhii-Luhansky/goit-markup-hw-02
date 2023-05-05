@@ -19,7 +19,8 @@
 /* основной шрифт страницы */
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--brandcolor);
+  color: #434455;
+  background-color: #ffffff;
 }
 /**************** HEADER************ */
 .logo {
@@ -30,10 +31,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--brandcolor);
+  color: var(--logocolor);
 }
 .logo-web {
-  color: var(--logocolor);
+  color: var(--brandcolor);
 }
 
 .menu-link {
@@ -49,7 +50,7 @@ body {
   color: #404bbf;
 }
 
-.contact-email {
+.contact-adress {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -57,23 +58,14 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contact-email:hover,
-.contact-email:focus {
+
+.contact-adress:hover,
+.contact-adress:focus {
   color: #404bbf;
 }
-
-.contact-phone-number {
+.address-header {
   font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
-.contact-phone-number:hover,
-.contact-phone-number:focus {
-  color: #404bbf;
-}
-
 /* ************Герой************* */
 .modal-btn,
 .filter-btn {
@@ -84,6 +76,7 @@ body {
   color: #ffffff;
   background: var(--logocolor);
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
 }
 
 .modal-btn:hover,
@@ -105,8 +98,9 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  /* color: #FFFFFF; */
+  color: #ffffff;
 }
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -116,7 +110,9 @@ body {
   text-transform: capitalize;
   color: var(--brandcolor);
 }
-
+.hero {
+  background-color: var(--brandcolor);
+}
 /* ************Features *********************/
 
 .list-title {
@@ -133,12 +129,15 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+.team {
+  background-color: #f4f4fd;
+}
 /***************Футер************** */
 
 .p-footer {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  background-color: var(--brandcolor);
   /* color: #F4F4FD; */
 }
