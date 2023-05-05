@@ -34,7 +34,7 @@ body {
   color: var(--logocolor);
 }
 .logo-web {
-  color: var(--brandcolor);
+  color: #f4f4fd;
 }
 
 .menu-link {
@@ -133,11 +133,16 @@ body {
   background-color: #f4f4fd;
 }
 /***************Футер************** */
-
+.footer{
+    background-color: var(--brandcolor);
+}
 .p-footer {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: var(--brandcolor);
   /* color: #F4F4FD; */
+}
+.team-member{
+    background-color: #FFFFFF
 }
